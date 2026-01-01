@@ -44,5 +44,45 @@ body{
 
 /*HEADER*/
 header{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1rem 5rem;
+    z-index: 999;
+}
+
+header h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+
+nav{
+    display: flex;
+    align-items:center ;
+    gap: 3rem;
+    margin-left: -5%;
+}
+
+nav a{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s;
+    text-decoration:none;
+    color: inherit;
+}
+
+nav a.hover{
+    color: #e7e7e7;
+}
+
+.btn-signing{
+    background-color: #e7e7e7;
+    color: black;
+    padding: 0.8rem 2rem;
+    border-radius : 50px; 
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
 }

@@ -11,3 +11,38 @@ body{
     min-height: 100vh;
     line-height: 1.5;
 }
+
+
+/*Gradient and layer blur effect*/
+.image-gradient{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.layer-blur{
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    box-shadow: 0 0 700px 15px;
+    rotate: -30deg;
+    z-index: -1;
+}
+
+/*CONTAINER*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+/*HEADER*/
+header{
+    
+}
